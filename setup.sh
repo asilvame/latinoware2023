@@ -1,6 +1,9 @@
 sudo usermod -aG dialout latinoware
 sudo yum install screen
 sudo yum install podman-compose
+##Oficina Franzininho C0
+sudo yum install openjfx
+podman pull docker.io/library/nginx
 podman pull docker.io/library/nginx
 cd /home/latinoware
 mkdir espmpy
