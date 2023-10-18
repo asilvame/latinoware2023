@@ -5,12 +5,12 @@ sudo yum -y install podman-compose
 sudo yum -y install openjfx
 podman pull docker.io/library/nginx
 podman pull docker.io/library/nginx
-cd /home/latinoware
+cd 
 mkdir espmpy
 cd espmpy
 git clone https://github.com/micropython/webrepl.git
 python -m venv mpy 
-source /home/latinoware/espmpy/mpy/bin/activate
+source ~/espmpy/mpy/bin/activate
 pip install --upgrade pip
 pip install jupyter lab
 pip install adafruit_ampy
