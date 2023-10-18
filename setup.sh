@@ -1,4 +1,5 @@
 sudo usermod -aG dialout latinoware
+sudo usermod -aG dialout latinoware2023
 sudo yum -y install screen
 sudo yum -y install podman-compose
 ##Oficina Franzininho C0
