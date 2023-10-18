@@ -1,8 +1,8 @@
 sudo usermod -aG dialout latinoware
-sudo yum install screen
-sudo yum install podman-compose
+sudo yum -y install screen
+sudo yum -y install podman-compose
 ##Oficina Franzininho C0
-sudo yum install openjfx
+sudo yum -y install openjfx
 podman pull docker.io/library/nginx
 podman pull docker.io/library/nginx
 cd /home/latinoware
