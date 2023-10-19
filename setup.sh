@@ -1,6 +1,7 @@
-sudo usermod -aG dialout latinoware
-sudo usermod -aG dialout latinoware2023
-yum  -y install python3-pip
+export myuser= $(whoami)
+sudo usermod -aG dialout $(myuser)
+#sudo usermod -aG dialout latinoware2023
+sudo yum  -y install python3-pip
 pip install pyserial
 cd ~
 curl https://downloads.arduino.cc/arduino-ide/arduino-ide_2.2.1_Linux_64bit.AppImage -o arduino-ide_2.2.1_Linux_64bit.AppImage 
