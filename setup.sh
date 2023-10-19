@@ -1,6 +1,5 @@
-export myuser=$(whoami)
-sudo usermod -aG dialout $(myuser)
-#sudo usermod -aG dialout latinoware2023
+sudo usermod -aG dialout latinoware
+sudo usermod -aG dialout latinoware2023
 sudo yum  -y install python3-pip
 pip install pyserial
 cd ~
