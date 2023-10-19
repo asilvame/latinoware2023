@@ -3,6 +3,7 @@ sudo usermod -aG dialout latinoware2023
 pip install pyserial
 cd ~
 curl https://downloads.arduino.cc/arduino-ide/arduino-ide_2.2.1_Linux_64bit.AppImage -o arduino-ide_2.2.1_Linux_64bit.AppImage 
+chmod +x arduino-ide_2.2.1_Linux_64bit.AppImage
 mkdir Arduino
 mkdir Arduino/libraries
 cd Arduino/libraries
