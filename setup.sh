@@ -1,4 +1,4 @@
-export myuser= $(whoami)
+export myuser=$(whoami)
 sudo usermod -aG dialout $(myuser)
 #sudo usermod -aG dialout latinoware2023
 sudo yum  -y install python3-pip
