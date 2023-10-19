@@ -1,9 +1,10 @@
 sudo usermod -aG dialout latinoware
 sudo usermod -aG dialout latinoware2023
 sudo yum  -y install python3-pip
+sudo yum -y install thonny
 pip install pyserial
 cd ~
-curl https://raw.githubusercontent.com/asilvame/latinoware2023/main/Banco de Informações de Hardware (BIH) pdf.pdf Banco_de_Informações_de_Hardware_(BIH).pdf
+curl https://raw.githubusercontent.com/asilvame/latinoware2023/main/Banco_de_informacoes_de_Hardware_BIH.pdf -o Banco_de_informacoes_de_Hardware_BIH.pdf 
 curl https://downloads.arduino.cc/arduino-ide/arduino-ide_2.2.1_Linux_64bit.AppImage -o arduino-ide_2.2.1_Linux_64bit.AppImage 
 chmod +x arduino-ide_2.2.1_Linux_64bit.AppImage
 mkdir Arduino
